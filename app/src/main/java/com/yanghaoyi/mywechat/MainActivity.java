@@ -54,7 +54,7 @@ public class MainActivity extends FragmentActivity {
             }
         }, 500, 200);
     }
-    
+
     private void startDearAnim(){
         ObjectAnimator translationX = ObjectAnimator.ofFloat(tvDear, "translationY", -200, 0);
         //创建透明度动画
